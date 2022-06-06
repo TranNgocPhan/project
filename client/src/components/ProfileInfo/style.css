@@ -1,0 +1,228 @@
+.grid {
+    width: 1130px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.separate {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid var(--color-grayborder);
+}
+.profile_wrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+}
+.profile_left {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 1.4rem;
+}
+.profile_left-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.profile_left-header-image {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-right: 1.2rem;
+}
+.profile_left-header-content {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.profile_left-header-content-text1 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+.profile_left-header-edit {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.profile_left-header-edit .fas {
+    color: var(--color-textgray);
+    font-size: 1.4rem;
+    margin-right: 0.4rem;
+}
+.profile_left-header-content-text2 {
+    color: var(--color-textgray);
+    font-size: 1.4rem;
+    margin-top: .4rem;
+}
+.profile_left-header-content-text2:hover {
+    cursor: pointer;
+    font-weight: bold;
+    align-self: center;
+}
+.profile_left-body {
+    width: 100%;
+    margin-top: 1.2rem;
+    justify-content: space-around;
+}
+.profile_body-item {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 1.2rem 0;
+}
+.profile_body-item-image {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    margin-right: 1.2rem;
+}
+.profile_body-item-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+}
+.profile_body-item-list-text {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: var(--color-black);
+}
+.profile_body-item-list-text:hover {
+    cursor: pointer;
+    color: var(--color-blue);
+}
+.profile_right {
+    background-color: var(--color-white);
+    width: 80%;
+    height: 66rem;
+    margin-left: 1.2rem;
+    margin-top: 1.4rem;
+}
+.profile_info {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.profile_info-header {
+    padding: 0.8rem 1.2rem 1.2rem 1.2rem;
+}
+.profile_info-title {
+    font-size: 1.7rem;
+    color: var(--color-black);
+    font-weight: 700;
+    margin-bottom: .8rem;
+    display: block;
+}
+.profile_info-text {
+    font-size: 1.4rem;
+    color: var(--color-black);
+    display: block;
+}
+#formProfile {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 1.2rem;
+    margin-top: .4rem;
+}
+.form_group {   
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.form_group-up {
+    display: flex;
+    align-items: center;
+}
+.form_group-label {
+    font-size: 1.6rem;
+    color: var(--color-textgray);
+    margin-right: 4rem;
+    margin-top: .3rem;
+}
+.form_group-info {
+    display: block;
+    font-size: 1.6rem;
+    color: var(--color-black);
+    flex: 1;
+}
+.form_group-info1 {
+    display: block;
+    font-size: 1.6rem;
+    color: var(--color-black);
+    flex: 1;
+}
+.form_group-input {
+    display: none;
+    width: 28rem;
+    height: 3.4rem;
+    font-size: 1.6rem;
+    outline-color: var(--color-blue);
+}
+.form_group-input:focus {
+    text-indent: .6rem; 
+}
+#imageProfileChoosen {
+    margin-top: 1.6rem;
+    font-size: 1.4rem;
+    display: none;
+}
+.sexGroup {
+    display: inline-block;
+}
+.imageUser {
+    margin-top: 1.8rem;
+    width: 26rem;
+    height: 26rem;
+    object-fit: contain;
+}
+.btn_saveInfo {
+    display: none;
+    height: 4.4rem;
+    background-color: var(--color-blue);
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    font-size: 1.6rem;
+}
+.btn_saveInfo:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.profile_password {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#formChangePass {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 1.2rem;
+    margin-top: .4rem;
+}
+#btn_savePassword {
+    display: block;
+    height: 4.4rem;
+    background-color: var(--color-blue);
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    font-size: 1.6rem;
+}
+#btn_savePassword:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.form_message {
+    color: red; 
+    font-size: 1.2rem; 
+    margin-top: 0.8rem;
+    text-align: left;
+    padding-left: 2.6rem;
+    display: none;
+}

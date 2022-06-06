@@ -1,0 +1,162 @@
+.App {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    bottom: 0;
+    right: 0;
+    display: none;
+    z-index: 99999;
+    position: fixed;
+}
+.App header {
+    background-color: #181717;
+    min-height: 50px;
+    color: white;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    z-index: 99;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.App section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40, 37, 53);
+    position: fixed;
+    bottom: .5rem;
+    right: 0;
+    max-width: 500px;
+    min-width: 500px;
+    min-height: 640px;
+    max-height: 640px;
+}
+  
+main {
+    padding: 10px;
+    height: 100%;
+    margin: 2vh 0 10vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+  
+main::-webkit-scrollbar {
+    width: .8rem;
+}
+  
+main::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+main::-webkit-scrollbar-thumb {
+    background: #6649b8;
+} 
+.formCB {
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    font-size: 1.5rem;
+    position: fixed;
+    text-indent: 1.4rem;
+    height: 6vh;
+    bottom: 0;
+}
+  
+.btn_chatbox {
+    width: 20%;
+    background-color: rgb(56, 56, 143);
+    z-index: 9999;
+}
+  
+  
+.inputCB {
+    line-height: 1.5;
+    width: 100%;
+    font-size: 1.5rem;
+    background: rgb(58, 58, 58);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    text-indent: 1rem;
+}
+  
+.btn_chatbox {
+    background-color: #282c34; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+  
+.btn_chatbox:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+  
+  
+.message {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+  
+.sent {
+    flex-direction: row-reverse;
+    color: white;
+    background: #0b93f6;
+    align-self: flex-end;
+}
+#message_content {
+    background-color: #0b93f6;
+    border: 1px solid black;
+    border-radius: 12px;
+    min-width: 100px;
+    min-height: 44px;
+    margin-top: 4px;
+}
+#message_content_item {
+    color: white;
+    font-size: 17px;
+}
+#message_status {
+    margin-top: 6px;
+    padding: 1.2px 0;
+    color:#696969;
+    font-weight: bold;
+} 
+.imageChatBox {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 2px 5px;
+}
+.closeBlock {
+    position: relative; 
+    top: 2.8rem;
+    cursor: pointer;
+    display: block;
+}
+.closeBlock:hover {
+    opacity: 0.8;
+}

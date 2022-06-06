@@ -1,0 +1,45 @@
+.illness_content-header {
+    width: 100%;
+    padding: 1.6rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 6rem;
+}
+.illness_search {
+    border: 1px solid var(--color-grayborder);
+    display: flex;
+    align-items: center;
+    box-shadow: 0.2rem 0.2rem 0.4rem var(--color-grayborder);
+    border-radius: 1rem;
+    margin-left: 3.6rem;
+    width: 40%;
+    height: 4rem;
+    overflow: hidden;
+    background-color: var(--color-white);
+}
+.illness_search .fas {
+    font-size: 1.4rem;
+    margin-left: 1.2rem;
+}
+.illness_search-input {
+    color: var(--color-black);
+    font-size: 1.4rem;
+    border: none;
+    height: 100%;
+    outline: none;
+    flex: 1;
+    margin-left: .4rem;
+}
+.illness_search-input::placeholder {
+    text-indent: 0.4rem;
+}
+.illness_search-input:focus {
+    text-indent: 0.4rem;
+}
+.illness_text {
+    display: 'block';
+    position: relative;
+    bottom: 5rem;
+    font-size: 1.6rem;
+}

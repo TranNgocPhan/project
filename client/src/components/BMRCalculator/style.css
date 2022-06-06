@@ -1,0 +1,57 @@
+.input_weight:focus {
+    text-indent: 1.2rem;
+}
+.input_height:focus {
+    text-indent: 1.2rem;
+}
+.input_age:focus {
+    text-indent: 1.2rem;
+}
+.btn_Calo {
+    background-color: #4d8dff;
+    border: 1px solid #fff;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    color: #fff;
+    width: 9rem;
+    height: 4rem;
+    cursor: pointer;
+}
+.btn_Calo:hover {
+    opacity: .7;
+}
+.alert_calculate {
+    width: 84rem;
+    height: 42rem;
+    background-color: var(--color-white);
+    position: relative;
+    z-index: 24;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.alert_calculate-text {
+    display: block;
+    font-size: 3rem;
+    color: var(--color-black);
+    margin-bottom: 2.6rem;
+}
+.alert_calculate-btn {
+    display: block;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    font-size: 1.6rem;
+    text-align: center;
+    border-radius: 1rem;
+    width: 13rem;
+    height: 4rem;
+    border: 1px solid var(--color-white);
+    margin-top: 2rem;
+    margin-left: 6.6rem;
+}
+.alert_calculate-btn:hover {
+    cursor: pointer;
+    opacity: .7;
+}
